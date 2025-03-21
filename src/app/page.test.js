@@ -35,10 +35,10 @@ describe("Home Component Structure", () => {
   it("has the correct structure with main content as flex-grow", () => {
     const { container } = render(<MockHome />);
 
-    // Use container.firstChild to get the root div
+    // container.firstChild to get the root div
     const outerWrapper = container.firstChild;
 
-    // Log the class names for debugging
+    // Logging the class names for debugging
     console.log("Root classes:", outerWrapper.className);
 
     // Check the class names on the outer div
