@@ -41,12 +41,12 @@ describe("Home Component Structure", () => {
     // Logging the class names for debugging
     console.log("Root classes:", outerWrapper.className);
 
-    // Check the class names on the outer div
+    // Checking the class names on the outer div
     expect(outerWrapper).toHaveClass("flex");
     expect(outerWrapper).toHaveClass("flex-col");
     expect(outerWrapper).toHaveClass("min-h-screen");
 
-    // Find the main element and check for flex-grow
+    // Finding the main element and check for flex-grow
     const mainElement = container.querySelector("main");
     expect(mainElement).toHaveClass("flex-grow");
   });

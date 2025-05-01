@@ -6,7 +6,7 @@ import Testimonials from "@/components/ui/sections/Testimonials";
 import FAQ from "@/components/ui/sections/FAQ";
 import CTA from "@/components/ui/sections/CTA";
 import Footer from "@/components/ui/layout/Footer";
-import "./globals.css"; // or wherever your tailwind CSS is
+import "./globals.css";
 
 export default function Home() {
   return (
